@@ -1,0 +1,44 @@
+[INFO]	[5/23/2019 11:58:06 PM]	info
+[OK]	[5/23/2019 11:58:06 PM]	ok
+[WARN]	[5/23/2019 11:58:06 PM]	warn
+[ERROR]	[5/23/2019 11:58:06 PM]	error
+[PANIC]	[5/23/2019 11:58:06 PM]	panic
+[PANIC]	[5/23/2019 11:58:06 PM]	ReferenceError: aaaaaaa is not defined
+    at Object.<anonymous> (/home/olback/Desktop/js-log-thing/dist/test.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+    at internal/main/run_main_module.js:21:11
+[WARN]	[5/23/2019 11:58:06 PM]	Unhandled promise rejection. Details unknown.
+[INFO]	[5/23/2019 11:58:19 PM]	debug
+[INFO]	[5/23/2019 11:58:19 PM]	info
+[OK]	[5/23/2019 11:58:19 PM]	ok
+[WARN]	[5/23/2019 11:58:19 PM]	warn
+[ERROR]	[5/23/2019 11:58:19 PM]	error
+[PANIC]	[5/23/2019 11:58:19 PM]	panic
+[PANIC]	[5/23/2019 11:58:19 PM]	ReferenceError: aaaaaaa is not defined
+    at Object.<anonymous> (/home/olback/Desktop/js-log-thing/dist/test.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+    at internal/main/run_main_module.js:21:11
+[WARN]	[5/23/2019 11:58:19 PM]	Unhandled promise rejection. Details unknown.
+[DEBUG]	[5/23/2019 11:59:10 PM]	debug
+[INFO]	[5/23/2019 11:59:10 PM]	info
+[OK]	[5/23/2019 11:59:10 PM]	ok
+[WARN]	[5/23/2019 11:59:10 PM]	warn
+[ERROR]	[5/23/2019 11:59:10 PM]	error
+[PANIC]	[5/23/2019 11:59:10 PM]	panic
+[PANIC]	[5/23/2019 11:59:10 PM]	ReferenceError: aaaaaaa is not defined
+    at Object.<anonymous> (/home/olback/Desktop/js-log-thing/dist/test.js:28:1)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+    at internal/main/run_main_module.js:21:11
+[WARN]	[5/23/2019 11:59:10 PM]	Unhandled promise rejection. Details unknown.
