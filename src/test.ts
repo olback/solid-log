@@ -1,6 +1,6 @@
 import * as log from './main';
 
-log.loggers.push(
+log.add(
     new log.ConsoleLogger(
         log.LogLevel.debug,
         {
@@ -13,7 +13,7 @@ log.loggers.push(
     )
 );
 
-log.loggers.push(new log.FileLogger(log.LogLevel.debug));
+log.add(new log.FileLogger(log.LogLevel.debug));
 
 // @ts-ignore
 const _p = new Promise((_resolve, reject) => {

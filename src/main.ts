@@ -2,7 +2,7 @@ import { ILogger, LogLevel } from './models';
 import { ConsoleLogger } from './console';
 import { FileLogger } from './fs';
 
-export const loggers: ILogger[] = [];
+const loggers: ILogger[] = [];
 
 export function debug(...args: any[]) {
     for (const l of loggers) {
@@ -38,6 +38,10 @@ export function panic(...args: any[]) {
     for (const l of loggers) {
         l.panic(args);
     }
+}
+
+export function add(logger: ILogger) {
+    loggers.push(logger);
 }
 
 // Handle exeptions and stuff
