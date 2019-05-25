@@ -1,18 +1,37 @@
 {
-  "name": "js-log-thing",
+  "name": "solid-log",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A simple console/file logging library.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olback/solid-log.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "dist/main.js",
+  "scripts": {
+    "prepublish": "npm run ts:build",
+    "ts:build": "tsc -p ./",
+    "ts:watch": "tsc -p ./ --watch",
+    "test": "node dist/test.js"
+  },
+  "keywords": [
+    "easy",
+    "simple",
+    "console",
+    "file",
+    "logging"
+  ],
+  "author": {
+    "name": "olback",
+    "url": "https://olback.net",
+    "email": "solid-log@olback.net"
+  },
+  "license": "MIT",
   "dependencies": {
+    "colors": "^1.3.3"
+  },
+  "devDependencies": {
     "@types/colors": "^1.2.1",
     "@types/node": "^12.0.2",
-    "colors": "^1.3.3",
     "typescript": "^3.4.5"
   }
 }
