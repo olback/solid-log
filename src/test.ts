@@ -17,6 +17,16 @@ log.add(new log.FileLogger(log.LogLevel.debug));
 
 // @ts-ignore
 const _p = new Promise((_resolve, reject) => {
+    reject(new Error('fdsd'));
+}).then(v => console.log(v));
+
+// @ts-ignore
+const _p2 = new Promise((_resolve, reject) => {
+    reject('fdsfsdfds');
+}).then(v => console.log(v));
+
+// @ts-ignore
+const _p3 = new Promise((_resolve, reject) => {
     reject();
 }).then(v => console.log(v));
 
