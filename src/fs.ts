@@ -25,7 +25,7 @@ export class FileLogger implements ILogger {
             level: _logLevel,
             format: options.format ? options.format : null,
             useColors: false,
-            path: options.path ? options.path : path.join(process.cwd(), 'log.txt')
+            path: options.path ? options.path : path.join(process.cwd(), `${path.basename(process.cwd())}.log`)
         }
 
         this.stream = fs.createWriteStream(this.settings.path, {

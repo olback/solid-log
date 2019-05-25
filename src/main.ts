@@ -44,7 +44,9 @@ export function panic(...args: any[]) {
 
 process.on('unhandledRejection', (reason, _promise) => {
 
-    warn(reason ? reason.toString() : 'Unhandled promise rejection. Details unknown.');
+    // Unhandled promise rejections are deprecated. In the future, promise rejections
+    // that are not handled will terminate the Node.js process with a non-zero exit code.
+    panic(reason ? reason.toString() : 'Unhandled promise rejection. Details unknown.');
 
 });
 
